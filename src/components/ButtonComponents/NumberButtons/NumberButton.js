@@ -1,9 +1,20 @@
 import React from "react";
+import Numbers from "./Numbers.js";
 
-const NumberButton = () => {
+const NumberButton = props => {
+  console.log(props);
   return (
-    <>
-      {/* Display a button element rendering the data being passed down from the parent container on props */}
-    </>
+    <button>Click me!
+       {/* onClick={() => props.buttonValue} */}
+    {/* {props.buttonValue} */}
+    
+    
+    </button>
+      /* Display a button element rendering the data being passed down from the parent container on props */
+    
   );
 };
+
+export default NumberButton;
+
+// This file's the child element of Number.js...it's the button, and receives the props data.
