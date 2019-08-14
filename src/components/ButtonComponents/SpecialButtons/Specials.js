@@ -13,7 +13,7 @@ const Specials = () => {
   return (
     <div>
       {specials.map(item => (
-        <SpecialButton buttonValue={item} />
+        <SpecialButton className="button" buttonValue={item} />
       ))}
       {/* STEP 3 - Use .map() to iterate over your array data and return a button
        component matching the name on the provided file. Pass
