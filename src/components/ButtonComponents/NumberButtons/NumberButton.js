@@ -2,11 +2,10 @@ import React from "react";
 import Numbers from "./Numbers.js";
 
 const NumberButton = props => {
-  console.log(props);
+
   return (
-    <button>Click me!
-       {/* onClick={() => props.buttonValue} */}
-    {/* {props.buttonValue} */}
+    <button> {props.buttonValue}
+
     
     
     </button>
