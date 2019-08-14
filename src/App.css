@@ -1,0 +1,105 @@
+/*
+// 'red' = #AC2938;
+// 'black' = #2C2829;
+// 'blue' = #3061AB;
+// 'dark blue' = #1B3C74;
+// 'light blue' = #5FB3E0;  */
+
+
+.container {
+    width: 60%;
+    height: 600px;
+    background: #AC2938;
+    border-radius: 12px;
+   /* display: flex;
+     flex-direction: column;
+    align-items: center; */
+}
+
+.logo-container {
+    padding: 25px 0 20px 30px;
+}
+
+.display-container {
+    background: #2C2829;
+    height: 100px;
+    width: 80%;
+    border-radius: 60px;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.display-container h1 {
+    color: white;
+    text-align: center;
+    padding-right: 25px;
+    font-size: 40px;
+}
+
+.keypad {
+    margin-top: 20px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftpad {
+    margin-left: 20px;
+    width: 65%;
+
+}
+
+.specials-container {
+
+}
+
+.nums-container {
+
+}
+
+.operators {
+
+    width: 25%;
+}
+
+
+.opButton {
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    background: #5FB3E0;
+    color: white;
+    border: none;
+    box-shadow: 0 3px #000000;
+    font-size: 15px;
+    margin: 5px 5px;
+}
+
+.spButton {
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    background: #3061AB;
+    color: white;
+    box-shadow: 0 3px #000000;
+    border: none;
+    font-size: 15px;
+    margin: 5px 5px;
+    padding: 3px 3px;
+}
+
+.nuButton {
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    background: #1B3C74;
+    color: white;
+    box-shadow: 0 3px #000000;
+    border: none;
+    font-size: 15px;
+    padding: 3px 3px;
+    margin: 6px 6px;
+}
